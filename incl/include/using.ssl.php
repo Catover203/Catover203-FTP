@@ -9,4 +9,9 @@ else
 {
 echo header('Location: https://');
 }
+
+if ($req_ssl == 0)
+{
+echo include('ssl.check.php');
+}
 ?>
