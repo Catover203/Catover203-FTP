@@ -23,6 +23,6 @@ function listdir($dir){
 	}
 	return $dirstring;
 }
-echo '<h1>Music list</h1><ul>';
+echo '<h1>File list</h1><ul>';
 echo listdir($dirtoscan);
 ?>
